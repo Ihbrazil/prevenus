@@ -1,0 +1,67 @@
+.container_backend {
+  padding: 20px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container_backend p {
+  max-width: 768px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+.container_backend h2 {
+  padding: 60px;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*--------Responsividade do projeto---------*/
+@media (max-width: 768px){
+  .texto_banner h1 {
+    font-size: 60px;
+  }
+
+  .secao_nossos_sabores {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img_card {
+    width: 100%;
+  }
+
+  .container_texto {
+    width: 100%;
+    padding: 100px 20px;
+  }
+
+  .secao_nossos_eventos {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .secao_sobre_nos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 425px){
+  .texto_banner h1 {
+    font-size: 40px;
+  }
+
+  .secao_banner {
+    background-size: 400px;
+  }
+}

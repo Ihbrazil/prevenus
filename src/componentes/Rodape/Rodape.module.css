@@ -1,0 +1,45 @@
+.container_rodape {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .container_informacoes {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 100px 20px;
+    justify-content: space-between;
+  }
+  
+  .container_informacoes div {
+    width: 20%;
+    height: 30px;
+  }
+  
+  .container_direito_autoral {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /*--------Responsividade do projeto---------*/
+
+  @media (max-width: 768px){
+    .container_informacoes {
+      flex-direction: column;
+      padding: 80px 0;
+      gap: 30px;
+    }
+  
+    .container_informacoes div {
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+  }

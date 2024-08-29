@@ -1,95 +1,56 @@
+import Link from 'next/link';
 import Image from "next/image";
-import styles from "./page.module.css";
 
-export default function Home() {
+import Logo from "../../public/logo.jpg";
+import estilos from './page.module.css';
+
+export default function Apresentacao() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main>
+        <section className={estilos.secao_banner}>
+          <div className={estilos.texto_banner}>
+          <h1>Prevenus</h1>
+          </div>
+        </section>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <section className={estilos.secao_nossos_sabores}>
+            <div className={estilos.container_texto}>
+              <h2>Prevenus</h2>
+              <span>OBJETIVO</span>
+              <p>
+                  Ser um norteador na prevenção de doenças ocupacionais em informática para profissionais que tem como ferramenta de trabalho o computador.
+              </p>
+            </div>
+            <div className={estilos.container_texto}>
+                <h2>Pesquisar</h2>
+                <span>(O QUÊ?)</span>
+                <p>
+                  Melhores formas de prevenção das DOI;
+                  Ergonomia de Concepção e Correção:
+                  <ul>
+                    <li>Ergonomia de Hardware</li>
+                    <li>Engenharia de usabilidade</li>
+                    <li>EAT - Ergonomia de Ambiente de Trabalho</li>
+                  </ul>
+                </p>
+              </div>
+        </section>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <section className={estilos.secao_nossos_eventos}>
+          <div className={estilos.container_texto}>
+              <h2>CONTEXTUALIZAÇÃO</h2>
+              <span>1980 e 1990</span>
+              <p>
+                As doenças surgidas no apogeu da era da informação, década de 1980 e 1990, têm como origem a implantação de novas tecnologias, falta de ergonomia nos postos e ambiente de trabalho, estudos de usabilidade de software e interação humano-computador.
+              </p>
+            </div>           
+        </section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <section className={estilos.secao_banner}>
+          <div className={estilos.texto_banner}>
+              <h1>Prevenus</h1>
+          </div>
+        </section>
     </main>
   );
 }

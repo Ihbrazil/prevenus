@@ -1,0 +1,60 @@
+.topo_container {
+  background-image: url('../../../public/banner.jpg');
+  background-size: cover; /* Ajusta a imagem para cobrir todo o container */
+  background-position: top; /* Posiciona a imagem no topo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  height: 10vh; /* Ajusta a altura do container para a altura da tela */
+
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.topo_container div {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+.topo_container nav {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.link_topo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 3px 5px 2px #474747;
+  text-decoration: none;
+}
+
+/*--------Responsividade do projeto---------*/
+
+@media (max-width: 768px){
+  .topo_container div{
+    flex-direction: column;
+  }
+
+  .topo_container nav {
+    border-top: 1px solid grey;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+}
