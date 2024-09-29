@@ -9,7 +9,7 @@ export default function Apresentacao() {
     <main>
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-          <h1>Prevenus</h1>
+          <h1>Apresentação</h1>
           </div>
         </section>
 
