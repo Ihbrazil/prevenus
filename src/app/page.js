@@ -25,14 +25,18 @@ export default function Apresentacao() {
                 <h2>Pesquisar</h2>
                 <span>(O QUÊ?)</span>
                 <p>
-                  Melhores formas de prevenção das DOI;
+                  Melhores formas de prevenção das DOI
+                </p>
+                <p>
                   Ergonomia de Concepção e Correção:
+                </p>
+                <div>
                   <ul>
                     <li>Ergonomia de Hardware</li>
                     <li>Engenharia de usabilidade</li>
                     <li>EAT - Ergonomia de Ambiente de Trabalho</li>
                   </ul>
-                </p>
+                </div>
               </div>
         </section>
 

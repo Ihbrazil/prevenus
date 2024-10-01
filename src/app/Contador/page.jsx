@@ -72,10 +72,11 @@ class Contador extends React.Component {
 
   render() {
     return (
+      
       <div className={styles.contador}>
         <h1>{this.state.emPausa ? 'Pausa' : 'Tempo de Trabalho'}</h1>
         <form onSubmit={this.handleSubmit}>
-          <label>
+          <label className= {styles.label}>
             Tempo de Trabalho (minutos):
             <select
               name="inputTrabalho"
@@ -87,7 +88,7 @@ class Contador extends React.Component {
               <option value={60}>60 minutos</option>
             </select>
           </label>
-          <label>
+          <label className= {styles.label}>
             Tempo de Pausa (minutos):
             <select
               name="inputPausa"
@@ -100,17 +101,18 @@ class Contador extends React.Component {
           </label>
           <button className={styles.botao} type="submit">Configurar</button>
         </form>
-        <div className={styles.tempos}>
+        <div className={styles.tempo}>
           <div>
             <h2>Atividade</h2>
-            <p className={styles.tempo}>{this.formatarTempo(this.state.tempoTrabalho)}</p>
+            <p>{this.formatarTempo(this.state.tempoTrabalho)}</p>
           </div>
           <div>
             <h2>Pausa</h2>
-            <p className={styles.tempo}>{this.formatarTempo(this.state.tempoPausa)}</p>
+            <p>{this.formatarTempo(this.state.tempoPausa)}</p>
           </div>
         </div>
       </div>
+      
     );
   }
 }
