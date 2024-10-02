@@ -5,13 +5,15 @@ import Image from 'next/image';
 export default function Alongamentos() {
   return (
     <main>
-      <section className={estilos.secao_banner}>
+      <section id='prevenus' className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-          <h1>Alongamentos</h1>
+            <h1>
+              <a href='#alongamentos'>Alongamentos</a>
+            </h1>
           </div>
       </section>
 
-      <section className={estilos.secao_nossos_sabores}>
+      <section id='alongamentos' className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
                 <h2>Alongamentos Startup</h2>
                 <span>Startup</span>
@@ -113,7 +115,9 @@ export default function Alongamentos() {
 
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-              <h1>Prevenus</h1>
+              <h1>
+                <a href='#prevenus'>Prevenus</a>
+              </h1>
           </div>
         </section>
     </main>

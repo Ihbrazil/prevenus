@@ -6,13 +6,15 @@ import estilos from './Ergonomia.module.css';
 export default function Ergonomia() {
   return (
     <main>
-        <section className={estilos.secao_banner}>
+        <section id='prevenus' className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-          <h1>Ergonomia</h1>
+              <h1>
+                  <a href='#ergonomia'>Ergonomia</a>
+              </h1>
           </div>
         </section>
 
-        <section className={estilos.secao_nossos_sabores}>
+        <section id='ergonomia' className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
                 <h2>Ergonomia</h2>
                 <span>IDEIA BASICA (O IDEAL)</span>
@@ -47,7 +49,9 @@ export default function Ergonomia() {
 
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-              <h1>Prevenus</h1>
+              <h1>
+                <a href='#prevenus'>Prevenus</a>
+              </h1>
           </div>
         </section>
     </main>

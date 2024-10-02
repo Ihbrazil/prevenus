@@ -4,13 +4,15 @@ import estilos from './Softwares.module.css';
 export default function Softwares() {
   return (
     <main>
-      <section className={estilos.secao_banner}>
+      <section id='prevenus' className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-          <h1>Downloads</h1>
+            <h1>
+              <a href='#downloads'>Downloads</a>
+            </h1>
           </div>
       </section>
 
-      <section className={estilos.secao_nossos_sabores}>
+      <section id='downloads' className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
                 <h2>Preven</h2>
                 <span>O Sistema Preven foi desenvolvido para o gerenciamento das atividades do usuário com a finalidade de prevenir as doenças ocupacionais em informática (DOI). Obs: A opção Público Infantil funciona apenas se EXECUTAR o sistema Preven como ADMINISTRADOR. Clique com o botão direito no arquivo Preven e em seguida em EXECUTAR COMO ADMINISTRADOR.</span>
@@ -44,7 +46,9 @@ export default function Softwares() {
 
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-              <h1>Prevenus</h1>
+              <h1>
+                <a href='#prevenus'>Prevenus</a>
+              </h1>
           </div>
         </section>
     </main>

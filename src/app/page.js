@@ -7,13 +7,15 @@ import estilos from './page.module.css';
 export default function Apresentacao() {
   return (
     <main>
-        <section className={estilos.secao_banner}>
+        <section id='prevenus' className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-          <h1>Apresentação</h1>
+          <h1>
+            <a href='#apresentacao'>Apresentação</a>
+          </h1>
           </div>
         </section>
 
-        <section className={estilos.secao_nossos_sabores}>
+        <section id='apresentacao' className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
               <h2>Prevenus</h2>
               <span>OBJETIVO</span>
@@ -52,7 +54,9 @@ export default function Apresentacao() {
 
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-              <h1>Prevenus</h1>
+              <h1>
+                <a href='#prevenus'>Prevenus</a>
+              </h1>
           </div>
         </section>
     </main>

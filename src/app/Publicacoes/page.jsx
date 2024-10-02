@@ -4,13 +4,15 @@ import estilos from './Publicacoes.module.css';
 export default function Publicacoes() {
   return (
     <main>
-      <section className={estilos.secao_banner}>
+      <section id='prevenus' className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-          <h1>Publicações Acadêmicas</h1>
+            <h1>
+              <a href='#publicacoes'>Publicações Acadêmicas</a>
+            </h1>
           </div>
       </section>
 
-      <section className={estilos.secao_nossos_sabores}>
+      <section id='publicacoes' className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
                 <h2>18° Seminário de Iniciação Científica</h2>
                 <span>PUC MINAS - 21/10/2010</span>
@@ -49,7 +51,9 @@ export default function Publicacoes() {
 
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-              <h1>Prevenus</h1>
+              <h1>
+                <a href='#prevenus'>Prevenus</a>
+              </h1>
           </div>
         </section>
     </main>

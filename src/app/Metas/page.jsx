@@ -6,13 +6,15 @@ import estilos from './Metas.module.css';
 export default function Metas() {
   return (
       <main>
-          <section className={estilos.secao_banner}>
+          <section id='prevenus' className={estilos.secao_banner}>
               <div className={estilos.texto_banner}>
-                  <h1>Metas</h1>
+                <h1>
+                    <a href='#metas'>Metas</a>
+                </h1>
               </div>
           </section>
 
-          <section className={estilos.secao_nossos_sabores}>
+          <section id = 'metas' className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
                 <h2>Metas</h2>
                 <span> Interação Humano-Computador</span>
@@ -24,7 +26,9 @@ export default function Metas() {
 
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
-              <h1>Prevenus</h1>
+              <h1>
+                <a href='#prevenus'>Prevenus</a>
+              </h1>
           </div>
         </section>
       </main>
