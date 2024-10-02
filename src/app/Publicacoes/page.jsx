@@ -15,15 +15,21 @@ export default function Publicacoes() {
                 <h2>18° Seminário de Iniciação Científica</h2>
                 <span>PUC MINAS - 21/10/2010</span>
                 <p>
-                  <Link href="/SemiarioPucMinas">PUC MINAS</Link>
+                  <Link className={estilos.botao}
+                    href="/SemiarioPucMinas"
+                    >PUC MINAS
+                  </Link>
                 </p>
             </div>
             <div className={estilos.container_texto}>
                 <h2>Seminário CES/JF</h2>
                 <span>09/11/2010</span>
                 <p>
-                  <Link href="../../../Apresentação_Prevenus_CESJF.pdf"
-                  target="_blank">CES/JF</Link>
+                  <Link className={estilos.botao}
+                    href="../../../Apresentação_Prevenus_CESJF.pdf"
+                    target="_blank"
+                    >CES/JF
+                  </Link>
                 </p>
               </div>
         </section>
@@ -33,7 +39,10 @@ export default function Publicacoes() {
                 <h2>X IHC & V CLIHC 2011</h2>
                 <span>28/10/2011</span>
                 <p>
-                <Link href="https://www.cin.ufpe.br/~ihc_clihc2011/index.php"  target="_blank">IHC/CLIHC</Link>
+                  <Link className={estilos.botao}
+                      href="https://www.cin.ufpe.br/~ihc_clihc2011/index.php"  target="_blank"
+                      >IHC/CLIHC
+                    </Link>
                 </p>  
             </div>           
         </section>
