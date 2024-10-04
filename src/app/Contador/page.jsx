@@ -7,7 +7,7 @@ class Contador extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tempoTrabalho: 0.25 * 60, // 30 minutos em segundos
+      tempoTrabalho: 30 * 60, // 30 minutos em segundos
       tempoPausa: 10 * 60, // 10 minutos em segundos
       emPausa: false,
       inputTrabalho: 30, // 30 minutos
