@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import estilos from "./Rodape.module.css";
 
@@ -10,12 +11,30 @@ export default function Rodape() {
         <div>
           <h3>CONTATO</h3>
           <p>prevenus@gmail.com</p>
-          <p>Linkedin</p>
+          <p>
+            <Link
+              href='https://www.linkedin.com/in/ihbrazil/'
+              target="_blank"
+              >Linkedin
+            </Link>
+          </p>
         </div>
         <div>
           <h3>Redes Sociais</h3>
-          <p>Instagram</p>
-          <p>Facebook</p>
+          <p>
+            <Link
+              href= 'https://www.instagram.com/prevenus888/?hl=pt-br'
+              target="_blank"
+              >Instagram
+            </Link>
+          </p>
+          <p>
+            <Link
+              href= 'https://www.facebook.com/prevenus' 
+              target="_blank"
+              >Facebook
+            </Link>
+          </p>
         </div>
       </div>
       <div className={estilos.container_direito_autoral}>

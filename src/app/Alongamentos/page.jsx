@@ -15,8 +15,8 @@ export default function Alongamentos() {
 
       <section id='alongamentos' className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
-                <h2>Alongamentos Startup</h2>
-                <span>Startup</span>
+                <h2>Startup</h2>
+                <span></span>
                 <p>
                 <Link className={estilos.botao}
           href="../../../Alongamentos_PDF/Startup.pdf"
@@ -25,8 +25,8 @@ export default function Alongamentos() {
                 </p>
             </div>
             <div className={estilos.container_texto}>
-                <h2>Alongamentos</h2>
-                <span>Seguro e Eficaz</span>
+                <h2>Seguro e Eficaz</h2>
+                <span></span>
                 <p>
                   <Link className={estilos.botao}
                     href="../../../Alongamentos_PDF/Seguro_e_Eficaz.pdf" target="_blank"
@@ -38,8 +38,8 @@ export default function Alongamentos() {
 
         <section className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
-                <h2>Alongamentos</h2>
-                <span>Antes do trabalho</span>
+                <h2>Antes do trabalho</h2>
+                <span></span>
                 <p>
                   <Link className={estilos.botao}
                     href="../../../Alongamentos_PDF/Antes_do_trabalho.pdf"
@@ -50,8 +50,8 @@ export default function Alongamentos() {
             </div>           
         
             <div className={estilos.container_texto}>
-                <h2>Alongamentos</h2>
-                <span>Artistas Gráficos</span>
+                <h2>Artistas Gráficos</h2>
+                <span></span>
                 <p>
                   <Link className={estilos.botao}
                     href="../../../Alongamentos_PDF/Artistas_Graficos.pdf"
@@ -64,8 +64,8 @@ export default function Alongamentos() {
 
         <section className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
-                <h2>Alongamentos</h2>
-                <span>Em pé</span>
+                <h2>Alongamentos em pé</h2>
+                <span></span>
                 <p>
                   <Link className={estilos.botao}
                     href="../../../Alongamentos_PDF/Em_pe.pdf"
@@ -76,8 +76,8 @@ export default function Alongamentos() {
             </div>           
         
             <div className={estilos.container_texto}>
-                <h2>Alongamentos</h2>
-                <span>Espontâneos</span>
+                <h2>Alongamentos Espontâneos</h2>
+                <span></span>
                 <p>
                   <Link className={estilos.botao}
                     href="../../../Alongamentos_PDF/Espontaneos.pdf" target="_blank"
@@ -90,8 +90,8 @@ export default function Alongamentos() {
 
         <section className={estilos.secao_nossos_sabores}>
             <div className={estilos.container_texto}>
-                <h2>Alongamentos</h2>
-                <span>Exercícios no Escritório</span>
+                <h2>Exercícios no Escritório</h2>
+                <span></span>
                 <p>
                   <Link className={estilos.botao}
                     href="../../../Alongamentos_PDF/Exercicios_no_Escritorio.pdf"
@@ -102,8 +102,8 @@ export default function Alongamentos() {
             </div>           
         
             <div className={estilos.container_texto}>
-                <h2>Alongamentos</h2>
-                <span>Antes de Caminhar</span>
+                <h2>Antes de Caminhar</h2>
+                <span></span>
                 <p>
                     <Link className={estilos.botao}
                       href="../../../Alongamentos_PDF/Antes_de_caminhar.pdf" target="_blank"
