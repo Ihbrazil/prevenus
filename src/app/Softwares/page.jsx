@@ -19,7 +19,7 @@ export default function Softwares() {
                 <p>O Sistema Preven foi desenvolvido para o gerenciamento das atividades do usuário com a finalidade de prevenir as doenças ocupacionais em informática (DOI). Obs: A opção Público Infantil funciona apenas se EXECUTAR o sistema Preven como ADMINISTRADOR. Clique com o botão direito no arquivo Preven e em seguida em EXECUTAR COMO ADMINISTRADOR.</p>
                 
                 <Link className={estilos.botao}
-                  href="https://drive.usercontent.google.com/download?id=1-p05Iv8lqMPZKbsIoBuY9G_igTzs9ecX&export=download&authuser=0" 
+                  href="https://1drv.ms/u/s!AtdazL6G9GBX-cEy5ChjGx7_lSW5Hw?e=WNHnng" 
                   target="_blank"
                   >Preven</Link>
                 
@@ -36,7 +36,7 @@ export default function Softwares() {
                   </ul>
                 </div>
                 <Link className={estilos.botao}
-                    href="https://drive.usercontent.google.com/download?id=1-7DHg8hum1EUhitljD-Xwn_gtSstUg_R&export=download&authuser=0"
+                    href="https://1drv.ms/u/s!AtdazL6G9GBX-cE19pb3nJiTgn_dgQ?e=xX7dkN"
                     target="_blank"
                     >Sentinela
                 </Link>

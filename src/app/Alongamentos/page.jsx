@@ -18,21 +18,26 @@ export default function Alongamentos() {
                 <h2>Startup</h2>
                 <span></span>
                 <p>
-                <Link className={estilos.botao}
-          href="../../../Alongamentos_PDF/Startup.pdf"
-          target="_blank"
-        >Startup</Link>
+                  <Link className={estilos.botao}
+                    href="../../../Alongamentos_PDF/Startup.pdf"
+                    target="_blank"
+                    >Startup
+                  </Link>
                 </p>
+                <iframe src="../../../Alongamentos_PDF/Startup.pdf#page=1" width="100%" height="400px"></iframe>
+ 
             </div>
             <div className={estilos.container_texto}>
                 <h2>Seguro e Eficaz</h2>
                 <span></span>
                 <p>
                   <Link className={estilos.botao}
-                    href="../../../Alongamentos_PDF/Seguro_e_Eficaz.pdf" target="_blank"
+                    href="../../../Alongamentos_PDF/Seguro_e_Eficaz.pdf"
+                    target="_blank"
                     >Seguro e Eficaz
                   </Link>
                 </p>
+                <iframe src="../../../Alongamentos_PDF/Seguro_e_Eficaz.pdf#page=1" width="100%" height="400px"></iframe>
               </div>
         </section>
 
@@ -46,7 +51,8 @@ export default function Alongamentos() {
                     target="_blank"
                     >Antes do Trabalho
                   </Link>
-                </p>  
+                </p>
+                <iframe src="../../../Alongamentos_PDF/Antes_do_trabalho.pdf#page=1" width="100%" height="400px"></iframe>  
             </div>           
         
             <div className={estilos.container_texto}>
@@ -59,6 +65,7 @@ export default function Alongamentos() {
                     >Artistas Gráficos
                   </Link>
                 </p>  
+                <iframe src="../../../Alongamentos_PDF/Artistas_Graficos.pdf#page=1" width="100%" height="400px"></iframe>
             </div>           
         </section>
 
@@ -72,7 +79,8 @@ export default function Alongamentos() {
                     target="_blank"
                     >Em pé
                   </Link>
-                </p>  
+                </p>
+                <iframe src="../../../Alongamentos_PDF/Em_pe.pdf#page=1" width="100%" height="400px"></iframe>  
             </div>           
         
             <div className={estilos.container_texto}>
@@ -83,7 +91,8 @@ export default function Alongamentos() {
                     href="../../../Alongamentos_PDF/Espontaneos.pdf" target="_blank"
                     >Espontâneos
                   </Link>
-                </p>  
+                </p>
+                <iframe src="../../../Alongamentos_PDF/Espontaneos.pdf#page=1" width="100%" height="400px"></iframe>  
             </div>           
         </section>
         
@@ -98,7 +107,8 @@ export default function Alongamentos() {
                     target="_blank"
                     >Exercícios no Escritório
                   </Link>
-                </p>  
+                </p>
+                <iframe src="../../../Alongamentos_PDF/Exercicios_no_Escritorio.pdf#page=1" width="100%" height="400px"></iframe>  
             </div>           
         
             <div className={estilos.container_texto}>
@@ -110,6 +120,7 @@ export default function Alongamentos() {
                       >Antes de Caminhar
                     </Link>                
                 </p>  
+                <iframe src="../../../Alongamentos_PDF/Antes_de_caminhar.pdf#page=1" width="100%" height="400px"></iframe>
             </div>           
         </section>
 

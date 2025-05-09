@@ -38,7 +38,7 @@ export default function Rodape() {
         </div>
       </div>
       <div className={estilos.container_direito_autoral}>
-        <p>Projeto Prevenus. Orgulhosamente desenvolvido por "Isaias Horta Brazil"</p>
+        <p>Projeto Prevenus - ihbrazil Full Stack</p>
       </div>
     </footer>
   );
