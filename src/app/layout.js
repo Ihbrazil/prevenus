@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo192.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
