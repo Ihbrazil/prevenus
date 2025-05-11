@@ -11,14 +11,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <head>
-        <link rel="icon" href="/logo192.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#000000" />
+        <link rel="icon" href="./img/icones/favicon.ico" type="image/x-icon"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Projeto Prevenus" />
         <meta name="keywords" content="Prevenus, alongamentos, saúde, ergonomia" />
-        <meta name="author" content="ihbrazil" />
+        <meta name="author" content="ihbrazil Full Stack Developer" />
+    
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="your-google-site-verification-code" />
         <meta property="og:title" content="Projeto Prevenus" />
