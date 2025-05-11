@@ -16,10 +16,6 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Projeto Prevenus" />
         <meta name="keywords" content="Prevenus, alongamentos, saúde, ergonomia" />
         <meta name="author" content="ihbrazil Full Stack Developer" />
-    
-        <meta name="robots" content="index, follow" />
-        <meta name="google-site-verification" content="your-google-site-verification-code" />
-        <meta property="og:title" content="Projeto Prevenus" />
         <meta property="og:description" content="Projeto Prevenus - Prevenção de Doenças Ocupacionais em Informática" />
       </head>
       <body>
