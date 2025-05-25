@@ -1,5 +1,3 @@
-"use client";
-
 import Link from 'next/link';
 import estilos from './Downloads.module.css';
 import Image from 'next/image';

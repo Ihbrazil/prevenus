@@ -1,5 +1,3 @@
-"use client";
-
 import Link from 'next/link';
 import estilos from './Alongamentos.module.css';
 import Image from 'next/image';

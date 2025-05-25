@@ -1,5 +1,4 @@
-"use client";
-
+// Importando os módulos necessários
 import Image from "next/image";
 
 import estilos from './Ergonomia.module.css';

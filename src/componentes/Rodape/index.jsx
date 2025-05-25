@@ -1,4 +1,4 @@
-import Image from "next/image";
+// Importando os módulos necessários
 import Link from "next/link";
 
 import estilos from "./Rodape.module.css";

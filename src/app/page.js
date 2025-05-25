@@ -1,9 +1,5 @@
-"use client";
-
-import Link from 'next/link';
 import Image from "next/image";
 
-import Logo from "../../public/logo.jpg";
 import estilos from './page.module.css';
 
 import Lupa from "../../public/icones/lupa.png";
