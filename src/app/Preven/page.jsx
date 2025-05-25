@@ -72,7 +72,6 @@ class Contador extends React.Component {
 
   render() {
     return (
-      
       <div className={styles.contador}>
         <h1>{this.state.emPausa ? 'Pausa' : 'Tempo de Trabalho'}</h1>
         <form onSubmit={this.handleSubmit}>

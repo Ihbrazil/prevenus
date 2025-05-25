@@ -13,6 +13,7 @@ export default function Rodape() {
           <p>prevenus@gmail.com</p>
           <p>
             <Link
+              className={estilos.link}
               href='https://www.linkedin.com/in/ihbrazil/'
               target="_blank"
               >Linkedin
@@ -23,6 +24,7 @@ export default function Rodape() {
           <h3>Redes Sociais</h3>
           <p>
             <Link
+              className={estilos.link}
               href= 'https://www.instagram.com/prevenus888/?hl=pt-br'
               target="_blank"
               >Instagram
@@ -30,6 +32,7 @@ export default function Rodape() {
           </p>
           <p>
             <Link
+              className={estilos.link}
               href= 'https://www.facebook.com/prevenus' 
               target="_blank"
               >Facebook
@@ -38,7 +41,7 @@ export default function Rodape() {
         </div>
       </div>
       <div className={estilos.container_direito_autoral}>
-        <p>Projeto Prevenus - ihbrazil Full Stack</p>
+        <p>Projeto Prevenus - ihbrazil Full Stack developers</p>
       </div>
     </footer>
   );

@@ -27,7 +27,11 @@
     text-align: center;
     padding: 10px;
   }
-  
+
+  .link {
+    text-decoration: none;
+  }
+
   /*--------Responsividade do projeto---------*/
 
   @media (max-width: 768px){

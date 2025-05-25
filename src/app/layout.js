@@ -10,12 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <head>
+      <head>       
         <link rel="icon" href="./img/icones/favicon.ico" type="image/x-icon"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Projeto Prevenus" />
         <meta name="keywords" content="Prevenus, alongamentos, saúde, ergonomia" />
-        <meta name="author" content="ihbrazil Full Stack Developer" />
+        <meta name="author" content="ihbrazil Full Stack developers" />
         <meta property="og:description" content="Projeto Prevenus - Prevenção de Doenças Ocupacionais em Informática" />
       </head>
       <body>

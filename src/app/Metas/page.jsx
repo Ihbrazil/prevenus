@@ -3,31 +3,82 @@ import Image from "next/image";
 
 import estilos from './Metas.module.css';
 
+import Foguete from "../../../public/icones/foguete.png";
+import Lampada from "../../../public/icones/lampada.png";
+/*ícones criados por Flat Icons - Flaticon*/
+
 export default function Metas() {
   return (
       <main>
           <section id='prevenus' className={estilos.secao_banner}>
               <div className={estilos.texto_banner}>
                 <h1>
-                    <a href='#metas'>Metas</a>
+                    <a
+                      className={estilos.link}
+                      href='#metas'>
+                      Metas
+                    </a>
                 </h1>
               </div>
           </section>
 
-          <section id = 'metas' className={estilos.secao_nossos_sabores}>
+          <section id = 'metas' className={estilos.secao_primeira_linha}>
             <div className={estilos.container_texto}>
-                <h2>Metas</h2>
-                <span> Interação Humano-Computador</span>
+                <h2>Metas do Projeto Prevenus</h2>
+                <span>Tecnologia e Saúde em Harmonia</span>
                 <p>
-                    As principais metas do projeto estão em sintonia com os objetivos da Interação Humano-Computador (IHC), uma disciplina da engenharia de software que estuda a melhor forma de adequar as interfaces físicas ou lógicas ao uso humano. O projeto faz uso de conhecimentos obtidos da ergonomia de interfaces e da medicina preventiva, através de estudos das dificuldades dos usuários e empresas frente a uma evolução constante do Hardware, do Software, do ritmo de trabalho cada dia mais acelerado e, também, ao tempo e a forma na utilização de uma aplicação computacional. A complexidade das interfaces está em constante evolução. A aplicação da usabilidade e da Ergonomia no desenvolvimento de interfaces deve conscientizar o usuário sobre a importância de considerar capacidades e limitações dos usuários do sistema informatizado, deve também, proporcionar ao usuário a realização de tarefas de modo mais eficaz, eficiente e salutar. Deve proporcionar o estudo de modelos e teorias cognitivas que fundamentam critérios e recomendações ergonômicas. Uma boa parte dos usuários não tem conhecimento que o uso prolongado do computador pode acarretar problemas de saúde se não forem tomadas as devidas precauções. Usando-se qualquer máquina por um tempo prolongado deve-se tomar cuidados extras com os limites do corpo humano. Por conta desta e outras situações ocupacionais a prevenção tornou-se fundamental para os profissionais que tem como ferramenta de trabalho o computador.
+                    O avanço tecnológico trouxe inúmeras facilidades, mas também desafios para a saúde dos profissionais que dependem do computador no dia a dia. O <span>Projeto Prevenus</span> tem como missão criar um ambiente digital mais saudável e acessível, unindo <span>Interação Humano-Computador (IHC)</span>, ergonomia e medicina preventiva para transformar a forma como interagimos com a tecnologia.
                 </p>
             </div>
+            
+            <div className={estilos.container_texto}>
+              <h2>
+                <Image
+                      src={Lampada}
+                      alt="Lampada"
+                      className={estilos.imagem_icon}>
+                </Image>Nossas Metas
+                
+              </h2>
+              <span>
+                Um Futuro Digital Mais Saudável
+              </span>
+              <ul type="none" className={estilos.lista}>
+                <li><span>Interfaces mais intuitivas e acessíveis</span>: Desenvolver soluções que respeitem as capacidades e limitações dos usuários, tornando a experiência digital mais eficiente e confortável.</li>
+                <li><span>Ergonomia aplicada ao mundo digital</span>: Estudar e implementar práticas que reduzam o impacto do uso prolongado do computador, prevenindo problemas de saúde ocupacionais.</li>
+                <li><span>Conscientização e prevenção</span>: Informar e educar profissionais sobre os riscos do uso inadequado da tecnologia, promovendo hábitos mais saudáveis no ambiente de trabalho.</li>
+                <li><span>Pesquisa e desenvolvimento</span>: Investigar novas tecnologias e métodos que possam melhorar a interação humano-computador, sempre com foco na saúde e bem-estar dos usuários.</li>
+                <li><span>Colaboração multidisciplinar</span>: Trabalhar em conjunto com especialistas de diversas áreas, como ergonomia, medicina, design e tecnologia, para criar soluções integradas e eficazes.</li>
+              </ul>
+            </div>
         </section>
+
+        <section className={estilos.secao_segunda_linha}>
+          <div className={estilos.container_texto}>
+              <h2>
+                <Image
+                    src={Foguete}
+                    alt="Foguete"
+                    className={estilos.imagem_icon}>
+                </Image>
+                O Futuro Tecnológico</h2>
+                <span>
+                  Começa com Saúde e Consciência
+                </span>
+              <p>
+                O Prevenus acredita que a tecnologia deve ser uma ferramenta de progresso, sem comprometer a saúde e o bem-estar dos usuários. Junte-se a nós nessa jornada para um futuro digital mais equilibrado e sustentável!
+              </p>
+          </div>
+          </section>
 
         <section className={estilos.secao_banner}>
           <div className={estilos.texto_banner}>
               <h1>
-                <a href='#prevenus'>Prevenus</a>
+                <a
+                  className={estilos.link}
+                  href='#prevenus'>
+                  Prevenus
+                </a>
               </h1>
           </div>
         </section>
