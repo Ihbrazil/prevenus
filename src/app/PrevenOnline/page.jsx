@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 import estilos from './PrevenOnline.module.css';
 import Image from 'next/image';

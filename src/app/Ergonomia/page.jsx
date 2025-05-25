@@ -1,4 +1,5 @@
-import Link from 'next/link';
+"use client";
+
 import Image from "next/image";
 
 import estilos from './Ergonomia.module.css';
