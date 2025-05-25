@@ -1,4 +1,5 @@
 // Importando os módulos necessários
+import React from "react";
 import Image from "next/image";
 
 import estilos from './Ergonomia.module.css';

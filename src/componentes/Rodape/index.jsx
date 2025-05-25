@@ -1,4 +1,5 @@
 // Importando os módulos necessários
+import React from "react";
 import Link from "next/link";
 
 import estilos from "./Rodape.module.css";
