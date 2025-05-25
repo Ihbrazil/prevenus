@@ -1,6 +1,6 @@
 import "./globals.css";
-import Topo from "@/componentes/Topo";
-import Rodape from "@/componentes/Rodape";
+import Topo from "../componentes/Topo";
+import Rodape from "../componentes/Rodape";
 
 export const metadata = {
   title: "Projeto Prevenus",

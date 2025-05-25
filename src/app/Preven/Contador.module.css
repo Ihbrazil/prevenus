@@ -1,0 +1,40 @@
+.contador {
+  text-align: center;
+  margin: 150px 100px 90px 100px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 50px 90px 5px 90px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tempo {
+  font-size: 36px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5vh 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.botao[type="submit"] {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.botao[type="submit"]:hover {
+  background-color: #039f5b;
+}
+
+.label {
+  display: block;
+  margin: 40px 0;
+  font-size: 18px;
+  color: #000;
+}
