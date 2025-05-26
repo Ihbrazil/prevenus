@@ -32,7 +32,7 @@
     text-decoration: none;
   }
 
-  /*--------Responsividade do projeto---------*/
+  /*---------Responsividade do projeto---------*/
 
   @media (max-width: 768px){
     .container_informacoes {
