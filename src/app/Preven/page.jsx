@@ -11,29 +11,28 @@ export default function Contador() {
   const [inputPausa, setInputPausa] = useState(10);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      let intervalId = setInterval(() => {
-        setTempoTrabalho((prev) => {
-          if (!emPausa && prev > 0) return prev - 1;
-          if (!emPausa && prev === 0) {
-            mostrarNotificacao("Hora da pausa!");
-            setEmPausa(true);
-            setTempoPausa(inputPausa * 60);
-            return 0;
-          }
-          if (emPausa && tempoPausa > 0) return setTempoPausa((prev) => prev - 1);
-          if (emPausa && tempoPausa === 0) {
-            mostrarNotificacao("Hora de voltar ao trabalho!");
-            setEmPausa(false);
-            setTempoTrabalho(inputTrabalho * 60);
-          }
-          return prev;
-        });
-      }, 1000);
+    let intervalId;
 
-      return () => clearInterval(intervalId);
+    if (typeof window !== "undefined") {
+      intervalId = setInterval(() => {
+        setTempoTrabalho((prev) => prev > 0 ? prev - 1 : prev);
+
+        if (!emPausa && tempoTrabalho === 0) {
+          mostrarNotificacao("Hora da pausa!");
+          setEmPausa(true);
+          setTempoPausa(inputPausa * 60);
+        } else if (emPausa && tempoPausa > 0) {
+          setTempoPausa((prev) => prev - 1);
+        } else if (emPausa && tempoPausa === 0) {
+          mostrarNotificacao("Hora de voltar ao trabalho!");
+          setEmPausa(false);
+          setTempoTrabalho(inputTrabalho * 60);
+        }
+      }, 1000);
     }
-  }, [emPausa, tempoPausa, inputTrabalho, inputPausa]);
+
+    return () => clearInterval(intervalId);
+  }, [emPausa, tempoTrabalho, tempoPausa, inputTrabalho, inputPausa]);
 
   const mostrarNotificacao = (mensagem) => {
     if (typeof window !== "undefined" && "Notification" in window && Notification.permission === "granted") {
@@ -93,4 +92,3 @@ export default function Contador() {
     </div>
   );
 }
-
