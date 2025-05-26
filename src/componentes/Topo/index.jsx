@@ -15,7 +15,7 @@ export default function Topo() {
     if (typeof window !== "undefined") {
       require("../../../css/bootstrap.min.css");
       require("../../../js/bootstrap.min.js"); // bootstrap/dist/js/bootstrap.bundle.min.js
-      require("../../../js/jquery-3.3.1.min.js");
+      require("../../../js/jquery-3.7.1.min.js");
     }
   }, []);
 
