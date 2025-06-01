@@ -63,7 +63,7 @@ export default function Downloads() {
                   Baixe agora e cuide da sua saúde digital! Os softwares Preven e Sentinela estão disponíveis para Windows. Para garantir o funcionamento correto, execute o Preven como Administrador.</p>
                 
                 <Link className={estilos.botao}
-                  href="https://1drv.ms/u/s!AtdazL6G9GBX-cEy5ChjGx7_lSW5Hw?e=WNHnng" 
+                  href="https://1drv.ms/u/s!AtdazL6G9GBXgZnuF6KzMMAw6SfXsq0?e=Bbk0oP" 
                   target="_blank"
                   >Preven</Link>
             </div>
@@ -103,7 +103,7 @@ export default function Downloads() {
                   </ul>
                 
                 <Link className={estilos.botao}
-                    href="https://1drv.ms/u/s!AtdazL6G9GBX-cE19pb3nJiTgn_dgQ?e=xX7dkN"
+                    href="https://1drv.ms/u/s!AtdazL6G9GBXgZnuGLxNxTlLE1LQRH0?e=KjKYkS"
                     target="_blank"
                     >Sentinela
                 </Link>
