@@ -1,3 +1,5 @@
+"use client";
+
 // Importando os módulos necessários
 import React from "react";
 import Link from "next/link";

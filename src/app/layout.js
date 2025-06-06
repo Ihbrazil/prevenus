@@ -1,7 +1,17 @@
+{/*
+  O que foi corrigido:
+    Topo e Rodape devem ser componentes client-side. Para isso:
+
+    Adicione "use client" no topo de cada um desses arquivos
+
+    Não os importe diretamente no layout.js
+
+    Em vez disso, crie um componente client separado, como ClientShell.js, com "use client" no topo, e mova Topo e Rodape para lá
+*/}
+
 import "./globals.css";
-import Topo from "../componentes/Topo";
-import Rodape from "../componentes/Rodape";
-import { GoogleTagManager } from '@next/third-parties/google';
+import { GoogleTagManager } from "@next/third-parties/google";
+import ClientShell from "../componentes/ClientShell";
 
 export const metadata = {
   title: "Projeto Prevenus",
@@ -12,9 +22,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <head>
-        {/* Google Tag Manager Script */}
-        <GoogleTagManager gtmId="G-C954W9XDEG" />
-        {/* Fim Google Tag Manager */}
         {/* Meta Tags */}
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,11 +33,19 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content="/imagem-preview.jpg" />
         <meta property="og:url" content="https://prevenus.com.br" />
       </head>
+      <GoogleTagManager gtmId="G-C954W9XDEG" />
       <body>
-        {/* Estrutura principal */}
+        {/* Estrutura principal antiga antes GTM */}
+        {/*
         <Topo />
         {children}
         <Rodape />
+        */}
+
+        {/* Estrutura principal nova depois GTM */}
+        <ClientShell>
+        {children}
+        </ClientShell>
       </body>
     </html>
   );
