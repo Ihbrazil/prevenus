@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         <meta property="og:image" content="/imagem-preview.jpg" />
         <meta property="og:url" content="https://prevenus.com.br" />
       </head>
-      <GoogleTagManager gtmId="G-C954W9XDEG" />
+      
       <body>
         {/* Estrutura principal antiga antes GTM */}
         {/*
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         {children}
         <Rodape />
         */}
-
+        <GoogleTagManager gtmId="G-C954W9XDEG" />  
         {/* Estrutura principal nova depois GTM */}
         <ClientShell>
         {children}

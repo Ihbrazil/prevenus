@@ -1,0 +1,88 @@
+.secao_banner {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../../../public/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; /* Define um contexto para posicionamento absoluto */
+}
+
+.texto_banner {
+  position: absolute;
+  width: 100%;
+  max-width: 800px; /* Limita a largura do texto */
+  height: auto; /* Permite que a altura se ajuste ao conteúdo */
+  padding: 20px; /* Adiciona espaçamento interno */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.link {
+  position: fixed; /* Mantém o link fixo na tela */
+  bottom: 20px; /* Ajusta a posição na parte inferior */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Estilos adicionais para a seção de contato */
+.secao_contato {
+    max-width: 100%;
+    width: 90%;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+    text-align: center;
+    overflow: visible;
+}
+
+.form_contato {
+    border: none;
+    width: 100%;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 768px) { /* Celulares */
+    .form-contato {
+        max-width: 100%;
+        height: 400px; /* Reduz altura para telas menores */
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { /* Tablets */
+    .form-contato {
+        max-width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) { /* Desktops médios */
+    .form-contato {
+        max-width: 800px;
+        height: 900px;
+    }
+}
+
+@media screen and (min-width: 1200px) { /* Telas grandes */
+    .form-contato {
+        max-width: 900px;
+        height: 900px; /* Ajusta altura para telas maiores */
+    }
+}

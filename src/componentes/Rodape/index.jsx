@@ -44,7 +44,7 @@ export default function Rodape() {
         </div>
       </div>
       <div className={estilos.container_direito_autoral}>
-        <p>Projeto Prevenus - ihbrazil Full Stack developers</p>
+        <p>Projeto Prevenus - ihbrazil Full Stack developer</p>
       </div>
     </footer>
   );

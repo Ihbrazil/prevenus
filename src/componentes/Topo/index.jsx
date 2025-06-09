@@ -95,6 +95,10 @@ export default function Topo() {
                   <li><Link className="dropdown-item" href="/Preven" onClick={fecharMenu}>Preven</Link></li>
                 </ul>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" href="/Contato" onClick={fecharMenu}>Contato</Link>
+              </li>
             </ul>
           </div>
         </div>
