@@ -60,28 +60,28 @@
 }
 
 @media screen and (max-width: 768px) { /* Celulares */
-    .form-contato {
+    .form_contato {
         max-width: 100%;
         height: 400px; /* Reduz altura para telas menores */
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) { /* Tablets */
-    .form-contato {
+    .form_contato {
         max-width: 100%;
         height: 100vh;
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1199px) { /* Desktops médios */
-    .form-contato {
+    .form_contato {
         max-width: 800px;
         height: 900px;
     }
 }
 
 @media screen and (min-width: 1200px) { /* Telas grandes */
-    .form-contato {
+    .form_contato {
         max-width: 900px;
         height: 900px; /* Ajusta altura para telas maiores */
     }
