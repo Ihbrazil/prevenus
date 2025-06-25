@@ -5,11 +5,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 import estilos from "./topo.module.css";
-import Logo from "../../../public/logo.jpg";
+//import Logo from "../../../public/logo.jpg"; no Next.js, imagens devem ser importadas diretamente no componente
+// ou referenciadas como uma URL pública se estiverem hospedadas externamente.
 
 export default function Topo() {
   const [menuAberto, setMenuAberto] = useState(false);
   const [submenuAberto, setSubmenuAberto] = useState("");
+  const Logo = "/logo.jpg"; // Importando a imagem do logo
 
   useEffect(() => {
     if (typeof window !== "undefined") {
